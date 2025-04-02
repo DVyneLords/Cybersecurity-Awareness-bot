@@ -10,7 +10,9 @@ namespace Cybersecurity_Awareness_bot
     {
         static void Commits()
         {
-            Console.WriteLine("use ASCII ");
+            Console.WriteLine("feat(UI): Added ASCII art logo and voice greeting for chatbot");
+            Console.WriteLine("feat(validation): Implemented input validation to prevent empty queries");
+            Console.WriteLine("feat(questions): Added basic cybersecurity Q&A for passwords, scams, privacy, and malware");
         }
     }
 }
